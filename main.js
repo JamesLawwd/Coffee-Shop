@@ -14,7 +14,11 @@ document.querySelector('.#menu-icon').onclick = () => {
 
 }
 
-window
+window.onscroll = () => {
+  search.classList.remove('active');
+  search.classList.remove('active');
+
+}
 
 let header = document.querySelector('header')
 

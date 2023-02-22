@@ -200,10 +200,11 @@ header.shadow{
 
 
 }
+/* remark */
 .products-container .box{
     position: relative;
     padding: 10px;
-    display:grid;
+    display:inline-flexbox;
     flex-direction: column;
     justify-content: center;
     border-radius: 0.5rem;
@@ -218,6 +219,7 @@ header.shadow{
     padding: 20px;
     background: #f1f1f1;
     border-radius: 0.5rem;
+    /* display: grid; */
 }
 .products-container .box h3{
     font-size: 1rem;
@@ -420,6 +422,39 @@ header.shadow{
         color: var(--bg-color);
     }
     .navbar .active{
+        top: 100%;
+    }
+    .about{
+        align-items: center;
 
     }
+}
+@media (max-width:360px){
+    header{
+        padding: 11px 4%;
+    }
+    .logo img{
+        width: 45px;
+    }
+    .home-text{
+        padding-top: 15px;
+    }
+    .home-text h1{
+        font-size: 1.4rem;
+    }
+    .home-text p{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .about-img{
+        order: 2;
+    }
+    .about-text h2{
+        font-size: 1.2rem;
+    }
+    .heading h2{
+        font-size: 1.2rem;
+    }
+
+
 }
