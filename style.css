@@ -47,7 +47,7 @@ body{
     align-items: center;
     padding: 18px 100px;
     transition: 0.5s linear;
-    background: var(--text-color);
+    background: var(--bg-color);
 
 }
 header.shadow{
