@@ -204,7 +204,7 @@ header.shadow{
 .products-container .box{
     position: relative;
     padding: 10px;
-    display:inline-flexbox;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 0.5rem;
@@ -230,7 +230,7 @@ header.shadow{
 
 .products-container .box .content{
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: space-around;
 }
 .products-container .box .content span{
